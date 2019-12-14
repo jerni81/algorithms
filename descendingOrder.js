@@ -15,8 +15,8 @@ let descendingOrder = (num) => {
   // let outPut = str2.parseInt()
   }
   let str2 = arr.join('')
-  // let output = valueOf(str2)
-  console.log(str2);
+  let outPut = parseInt(str2)
+  return outPut
 }
 
 descendingOrder(283950);
